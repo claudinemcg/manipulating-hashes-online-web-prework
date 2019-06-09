@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-contacts[:favourite_icecream_flavors]= "cookie dough", "mint chip"
+contacts[Freddy[:favourite_icecream_flavors]= "cookie dough", "mint chip"
 
   #remember to return your newly altered contacts hash!
   contacts
