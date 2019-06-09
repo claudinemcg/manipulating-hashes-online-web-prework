@@ -13,7 +13,9 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts["Freddy Mercury"][:favourite_icecream_flavors]= "cookie dough", "mint chip"
+
+contact.each do |key, value|
+  
 
 
   #remember to return your newly altered contacts hash!
